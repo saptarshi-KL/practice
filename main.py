@@ -4,4 +4,4 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"msg": "Let's finish CI/CD"}
+    return {"msg": "Branch Created and Merged Successfully"}
