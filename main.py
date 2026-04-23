@@ -4,4 +4,4 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"msg": "Super CI/CD working"}
+    return {"msg": "Let's finish CI/CD"}
